@@ -1,0 +1,87 @@
+/* Updated: 2011.04.05 ENR
+   Author: Erik Runyon
+   Copyright 2011 University of Notre Dame
+   ----------------------------------------------------*/
+
+#sherpind {height:100%; position:fixed; right:0; top:0; z-index:1400; margin:0; padding:0; font-size:14px; list-style:none;}
+#sherpind li {position:absolute; right:0; top:0; width:39px; margin:-19px 0 0; cursor:pointer; color:#fff; text-shadow:1px 1px 2px #000; filter:dropshadow(color=#000000, offx=1, offy=1);}
+#sherpind li.hover {z-index:1000; width:239px; height:auto; padding:0;}
+#sherpind .marker {position:relative; z-index:100; height:19px; background:url("images/sherpind-bars.png") 0 0 no-repeat;}
+#sherpind li.hover .marker {background-position:0 -29px;}
+#sherpind li.hover.pinup .marker {background-position:0 -58px;}
+#sherpind .content {display:none; z-index:0; width:204px; margin:-19px 13px 0 0; padding:29px 10px 10px; border:1px solid #000; -moz-border-radius:6px; border-radius:6px; background:url(images/sherpind-bg.png) 0 0 repeat;}
+
+#sherpind li.hover .content {display:block;}
+#sherpind li.pinup .content {padding:10px 10px 29px;}
+#sherpind li .tease {float:left; margin:3px 10px 0 0;}
+#sherpind li .tease img {max-width:50px; max-height:50px; border:1px solid #fff;}
+#sherpind li .title {font-weight:bold; font-size:100%;}
+#sherpind li .snippet {font-size:90%; line-height:1.2em;}
+
+#sherpind.dark-gray .marker {background-position:0 -87px;}
+#sherpind.dark-gray li.hover .marker {background-position:0 -116px;}
+#sherpind.dark-gray li.hover.pinup .marker {background-position:0 -145px;}
+
+#sherpind.red .marker {background-position:0 -174px;}
+#sherpind.red li.hover .marker {background-position:0 -203px;}
+#sherpind.red li.hover.pinup .marker {background-position:0 -232px;}
+
+#sherpind.orange .marker {background-position:0 -261px;}
+#sherpind.orange li.hover .marker {background-position:0 -290px;}
+#sherpind.orange li.hover.pinup .marker {background-position:0 -319px;}
+
+#sherpind.yellow .marker {background-position:0 -348px;}
+#sherpind.yellow li.hover .marker {background-position:0 -377px;}
+#sherpind.yellow li.hover.pinup .marker {background-position:0 -406px;}
+
+#sherpind.green .marker {background-position:0 -435px;}
+#sherpind.green li.hover .marker {background-position:0 -464px;}
+#sherpind.green li.hover.pinup .marker {background-position:0 -493px;}
+
+#sherpind.dark-green .marker {background-position:0 -522px;}
+#sherpind.dark-green li.hover .marker {background-position:0 -551px;}
+#sherpind.dark-green li.hover.pinup .marker {background-position:0 -580px;}
+
+#sherpind.mint .marker {background-position:0 -609px;}
+#sherpind.mint li.hover .marker {background-position:0 -638px;}
+#sherpind.mint li.hover.pinup .marker {background-position:0 -667px;}
+
+#sherpind.dark-mint .marker {background-position:0 -696px;}
+#sherpind.dark-mint li.hover .marker {background-position:0 -725px;}
+#sherpind.dark-mint li.hover.pinup .marker {background-position:0 -754px;}
+
+#sherpind.blue .marker {background-position:0 -783px;}
+#sherpind.blue li.hover .marker {background-position:0 -812px;}
+#sherpind.blue li.hover.pinup .marker {background-position:0 -841px;}
+
+#sherpind.light-blue .marker {background-position:0 -870px;}
+#sherpind.light-blue li.hover .marker {background-position:0 -899px;}
+#sherpind.light-blue li.hover.pinup .marker {background-position:0 -928px;}
+
+#sherpind.navy-blue .marker {background-position:0 -957px;}
+#sherpind.navy-blue li.hover .marker {background-position:0 -986px;}
+#sherpind.navy-blue li.hover.pinup .marker {background-position:0 -1015px;}
+
+#sherpind.baby-blue .marker {background-position:0 -1044px;}
+#sherpind.baby-blue li.hover .marker {background-position:0 -1073px;}
+#sherpind.baby-blue li.hover.pinup .marker {background-position:0 -1102px;}
+
+#sherpind.dark-purple .marker {background-position:0 -1131px;}
+#sherpind.dark-purple li.hover .marker {background-position:0 -1160px;}
+#sherpind.dark-purple li.hover.pinup .marker {background-position:0 -1189px;}
+
+#sherpind.light-purple .marker {background-position:0 -1218px;}
+#sherpind.light-purple li.hover .marker {background-position:0 -1247px;}
+#sherpind.light-purple li.hover.pinup .marker {background-position:0 -1276px;}
+
+#sherpind.dark-pink .marker {background-position:0 -1305px;}
+#sherpind.dark-pink li.hover .marker {background-position:0 -1334px;}
+#sherpind.dark-pink li.hover.pinup .marker {background-position:0 -1363px;}
+
+#sherpind.pink .marker {background-position:0 -1392px;}
+#sherpind.pink li.hover .marker {background-position:0 -1421px;}
+#sherpind.pink li.hover.pinup .marker {background-position:0 -1450px;}
+
+#sherpind.gold .marker {background-position:0 -1479px;}
+#sherpind.gold li.hover .marker {background-position:0 -1508px;}
+#sherpind.gold li.hover.pinup .marker {background-position:0 -1537px;}
