@@ -10,8 +10,8 @@
 ;(function($) {
   $.fn.sherpiND = function(options) {
     var opts = $.extend({}, $.fn.sherpiND.defaults, options),
-        docHeight = document.height,
-        windowHeight = window.innerHeight,
+				docHeight = $(document).height(),
+				windowHeight = $(window).height(),
         list = '<ol id="sherpind" class="'+ opts.color +'"></ol>'
     ;
     $(document.body).append(list);
