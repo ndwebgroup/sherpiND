@@ -2,6 +2,8 @@
  * sherpiND
  *
  * Copyright (c) 2011 University of Notre Dame
+ * Licensed under the MIT License
+ * http://nd.edu/copyright/
  *
  * Date: 2011-04-05
  * Version: 1.0
@@ -10,8 +12,8 @@
 ;(function($) {
   $.fn.sherpiND = function(options) {
     var opts = $.extend({}, $.fn.sherpiND.defaults, options),
-				docHeight = $(document).height(),
-				windowHeight = $(window).height(),
+        docHeight = $(document).height(),
+        windowHeight = $(window).height(),
         list = '<ol id="sherpind" class="'+ opts.color +'"></ol>'
     ;
     $(document.body).append(list);
