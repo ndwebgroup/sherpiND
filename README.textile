@@ -9,15 +9,19 @@ h2. Use
 
 Include the CSS, images and js in your project. Call the plugin as follows:
 
+<pre><script>
 jQuery(function($){
   $('.pin').sherpiND();
 });
+</script></pre>
 
 To change the color of the pins, pass in a color option:
 
+<pre><script>
 jQuery(function($){
   $('.pin').sherpiND({color:'light-blue'});
 });
+</script></pre>
 
 See the css for a complete list of color options.
 
