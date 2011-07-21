@@ -25,3 +25,7 @@ h2. Changelog
 
 * v1 (2011-04-05)
 ** ADD: Initial commit
+
+h2. License
+
+sherpiND is released under the MIT license.
