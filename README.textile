@@ -1,16 +1,25 @@
 h1. Notre Dame sherpiND jQuery plugin
 
-sherpiND is intended to ease in the navigation of long content pages and is inspired by the "scrollPins" on MSNBC.com
+sherpiND is intended to ease in the navigation of long content pages and is inspired by the "scrollPins" on MSNBC.com.
+A live example can be viewed here: http://nd.edu/indepth/irish-edge/
 
-sherpiND was developed and released by AgencyND at the University of Notre Dame.
+sherpiND was developed and released by the Office of Public Affairs and Communications at the University of Notre Dame.
 
 h2. Use
 
 Include the CSS, images and js in your project. Call the plugin as follows:
 
 jQuery(function($){
+  $('.pin').sherpiND();
+});
+
+To change the color of the pins, pass in a color option:
+
+jQuery(function($){
   $('.pin').sherpiND({color:'light-blue'});
 });
+
+See the css for a complete list of color options.
 
 h2. Changelog
 
