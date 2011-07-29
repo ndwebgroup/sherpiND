@@ -16,7 +16,7 @@
 #sherpind li.pinup .content {padding:10px 10px 29px;}
 #sherpind li .tease {float:left; margin:3px 10px 0 0;}
 #sherpind li .tease img {max-width:50px; max-height:50px; border:1px solid #fff;}
-#sherpind li .title {font-weight:bold; font-size:100%;}
+#sherpind li .title {display:block; font-weight:bold; font-size:100%; line-height:1.2em;}
 #sherpind li .snippet {font-size:90%; line-height:1.2em;}
 
 #sherpind.dark-gray .marker {background-position:0 -87px;}
