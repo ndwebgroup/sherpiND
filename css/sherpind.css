@@ -5,7 +5,7 @@
    ----------------------------------------------------*/
 
 #sherpind {height:100%; position:fixed; right:0; top:0; z-index:1400; margin:0; padding:0; font-size:14px; list-style:none;}
-#sherpind li {position:absolute; right:0; top:0; width:39px; margin:-19px 0 0; cursor:pointer; color:#fff; text-shadow:1px 1px 2px #000; filter:dropshadow(color=#000000, offx=1, offy=1);}
+#sherpind li {position:absolute; right:0; top:0; width:39px; margin:-19px 0 0; cursor:pointer; color:#fff; text-shadow:1px 1px 2px #000;}
 #sherpind li.hover {z-index:1000; width:239px; height:auto; padding:0;}
 #sherpind .marker {position:relative; z-index:100; height:19px; background:url("images/sherpind-bars.png") 0 0 no-repeat;}
 #sherpind li.hover .marker {background-position:0 -29px;}
