@@ -27,6 +27,8 @@ See the css for a complete list of color options.
 
 h2. Changelog
 
+* v1.0.1 (2011-07-21)
+** CHANGE: remove IE dropshadow filter since it was breaking "pinup" bubbles
 * v1 (2011-04-05)
 ** ADD: Initial commit
 
