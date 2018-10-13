@@ -5,6 +5,10 @@ A live example can be viewed here: http://nd.edu/indepth/irish-edge/
 
 sherpiND was developed and released by the Office of Public Affairs and Communications at the University of Notre Dame.
 
+h2. NOTE!!!
+
+This plugin has not been tested or used by the author since 2011. We make no guarantees it will work.
+
 h2. Use
 
 Include the CSS, images and js in your project. Call the plugin as follows:
